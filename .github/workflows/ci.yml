@@ -26,4 +26,4 @@ jobs:
           python -c "import app"
 
       - name: Build Docker image
-        run: docker build -t python.api .
+        run: docker build -t python.api /c/users/matthew.miller/Documents/QA/PersonalProjects/devops-python-api/Dockerfile
